@@ -1,5 +1,5 @@
 import Navigation from '../Navigation';
-// import Header from './AppBar.styles';
+import Header from './AppBar.styles';
 
 const AppBar = () => {
   return (

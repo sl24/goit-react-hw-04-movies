@@ -1,4 +1,4 @@
-// import Text from './ErrorText.styles';
+import Text from './ErrorText.styles';
 
 const ErrorText = () => {
   return <Text>Whoops, something went wrong. Try again.</Text>;

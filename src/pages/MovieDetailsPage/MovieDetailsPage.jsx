@@ -8,12 +8,12 @@ import PreLoader from '../../components/PreLoader';
 import ErrorText from '../../components/ErrorText';
 import routes from '../../routes';
 import { fetchMoviesGetDetails } from '../../services/fetchMovies';
-// import {
-//   CastAndAuthorPageList,
-//   CastAndAuthorPageItem,
-//   DetailsPageContainer,
-//   Button,
-// } from './MovieDetailsPage.styles';
+import {
+  CastAndAuthorPageList,
+  CastAndAuthorPageItem,
+  DetailsPageContainer,
+  Button,
+} from './MovieDetailsPage.styles';
 
 function MovieDetailsPage(props) {
   const { match, history, location } = props;
@@ -32,7 +32,7 @@ function MovieDetailsPage(props) {
     if (location.state && location.state.from) {
       refPrevPage.current = { ...location.state.from };
     }
-  }, [location]);
+  });
 
   useEffect(() => {
     setError(null);

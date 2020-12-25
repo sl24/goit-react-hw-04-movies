@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-// import {
-//   Container,
-//   Image,
-//   InfoList,
-//   Title,
-//   TitleText,
-//   CapitalText,
-// } from './Movie.styles';
+import {
+  Container,
+  Image,
+  InfoList,
+  Title,
+  TitleText,
+  CapitalText,
+} from './Movie.styles';
 import defaultImg from '../../../img/not_found.jpg';
 
 const Movie = ({ poster, title, score, overview, genres }) => {

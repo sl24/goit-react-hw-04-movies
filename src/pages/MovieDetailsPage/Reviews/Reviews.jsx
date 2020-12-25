@@ -6,7 +6,7 @@ import ReviewsList from './ReviewsList';
 import ErrorText from '../../../components/ErrorText';
 import PreLoader from '../../../components/PreLoader';
 import { fetchMoviesGetReviews } from '../../../services/fetchMovies';
-// import NotFound from './Reviews.styles';
+import NotFound from './Reviews.styles';
 
 const Reviews = () => {
   const { movieId } = useParams();

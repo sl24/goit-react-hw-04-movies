@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
-// import {
-//   FormContainer,
-//   SearchInput,
-//   Button,
-//   TextButton,
-// } from './Searchbar.styles';
+import {
+  FormContainer,
+  SearchInput,
+  Button,
+  TextButton,
+} from './Searchbar.styles';
 
 function Searchbar({ onSubmitForm }) {
   const [search, setSearch] = useState('');

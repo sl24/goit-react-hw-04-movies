@@ -1,16 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: url('./img/37.jpg');
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Work Sans', sans-serif;
+  background-image: url('./img/bg_image.jpg');
 }
 
 img {
@@ -26,13 +17,14 @@ ul {
 .navLink {
   font-size: 26px;
   color: #fff;
-  margin-right: 16px;
+  text-decoration: none;
 }
 
 .navLink:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 40px;
 }
 
 .navLink--active {
-  color: red;
+  color: rgb(69, 108, 194);
+  font-weight: 700;
 }
