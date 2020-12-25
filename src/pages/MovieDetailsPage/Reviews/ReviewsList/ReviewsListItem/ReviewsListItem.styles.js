@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Title = styled.h3`
-  color: red;
+  color: green;
 `;
 
 const Text = styled.p`
